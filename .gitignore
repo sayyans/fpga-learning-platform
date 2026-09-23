@@ -1,0 +1,51 @@
+# ==========================================
+# FPGA Learning Platform
+# ==========================================
+
+# Node / React / Vite
+node_modules/
+dist/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Backup archives
+*.zip
+
+# Quartus generated files
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.jdi
+*.sof
+*.pof
+*.qdf
+*.done
+*.pin
+*.sld
+c5_pin_model_dump.txt
+
+# ModelSim generated files
+work/
+transcript
+vsim.wlf
+*.wlf
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
